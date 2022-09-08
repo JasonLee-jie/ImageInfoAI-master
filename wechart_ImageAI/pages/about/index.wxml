@@ -1,0 +1,13 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">关于我们</view>
+</cu-custom>
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <image src="{{tempFilePaths }}" catchTap="chooseImageTap" mode="aspectFit" style="width: 100%; height: 450rpx" />
+  <view class='text-center margin-bottom text-lg  text-grey'></view>  
+  <view class='text-content'>
+    <view class='margin-top-sm'>云想衣裳花想容，春风拂槛露华浓。</view>
+    <view class='margin-top-sm'>若非群玉山头见，会向瑶台月下逢。</view>
+    <view class='margin-top-sm'>李白</view>
+  </view>
+</view>
